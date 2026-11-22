@@ -1,0 +1,17 @@
+git clone <link>
+cd devops-pr-3(whatever the name of folder is)
+dir
+
+git status
+
+git remote -v
+
+CHANGE README.md 
+
+git diff
+
+git add .
+git commit 
+git log
+
+git push origin main
