@@ -1,0 +1,28 @@
+init → commit → branch → modify → commit → main → modify → commit → merge → resolve → add → commit → verify
+
+git init
+git branch -M main
+git add .
+git commit -m "Initial commit"
+
+git branch feature-update
+git checkout feature-update
+
+B52
+git add .
+git commit -m "Update event in feature branch"
+
+git checkout main
+Amphitheatre
+git add .
+git commit -m "Update event in main branch"
+
+git merge feature-update
+
+CHANGE THE TXT TO ORIGINAL
+git add conflict-demo.txt
+git commit -m "Resolve merge conflict"
+
+git status
+git log --oneline --graph --all
+git branch
