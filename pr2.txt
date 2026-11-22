@@ -1,0 +1,37 @@
+git init
+
+git status
+
+git add .
+git status
+
+git commit -m "Initial commit"
+git status
+
+git log --oneline
+git log
+
+GO TO GITHUB AND CREATE A REPO AND COPY ITS LINK
+
+git remote add origin <link>
+git remote -v
+
+git push -u origin main
+
+TAKE SS OF GITHUB REPO
+
+IN index.html ADD COMMENT <!---Update--->
+
+git status
+git diff
+
+git add index.html
+git status
+
+git commit -m "Initial Commit"
+git status
+
+git push
+
+git log --oneline
+git log
