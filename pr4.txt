@@ -1,0 +1,37 @@
+books.docx, README.md.docx, books.txt, README.md
+
+git init
+git add .
+git commit -m "Initial commit - Library Management project"
+
+Add to books.txt: B004, Atomic Habits, James Clear
+git diff
+
+Modify README.md: 
+
+Complete commit history
+git log
+
+File-specific history
+git log --oneline -- books.txt
+git log --oneline -- README.md
+
+add to books.txt and README.md:
+git status
+git add README.md
+git status
+git diff
+git diff --staged
+
+Compare two commits:
+git log --oneline
+git diff HEAD~2 HEAD
+git diff HEAD~2 HEAD -- books.txt
+git diff HEAD~2 HEAD -- README.md
+
+git add .
+git commit -m "Add additional book and Git documentation"
+
+
+
+
