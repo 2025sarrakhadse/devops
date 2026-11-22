@@ -1,3 +1,5 @@
+init → add → commit → modify → commit → log → file history → stage/unstage → diff → final commit → status.
+
 books.docx, README.md.docx, books.txt, README.md
 
 git init
