@@ -3,11 +3,7 @@ git init
 git status
 
 git add . 
-git status
-
 git commit -m "Initial commit"
-git status
-
 git log --oneline
 git log
 
@@ -17,9 +13,6 @@ git status
 git diff
 
 git add index.html
-git status
-
 git commit -m "Updated index.html"
-git status
 
 git log
